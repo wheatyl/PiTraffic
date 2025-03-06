@@ -32,20 +32,18 @@ AllRed()
        
 
 try:
-    while True:
-
-        SouthRed.on()
-        EastRed.on()
-        NorthRed.on()
-        WestRed.on()
-        SouthYellow.on()
-        EastYellow.on()
-        NorthYellow.on()
-        WestYellow.on()
-        SouthGreen.on()
-        EastGreen.on()
-        NorthGreen.on()
-        WestGreen.on()
+    SouthRed.on()
+    EastRed.on()
+    NorthRed.on()
+    WestRed.on()
+    SouthYellow.on()
+    EastYellow.on()
+    NorthYellow.on()
+    WestYellow.on()
+    SouthGreen.on()
+    EastGreen.on()
+    NorthGreen.on()
+    WestGreen.on()
         
 except KeyboardInterrupt:
     PiTraffic.closeGPIO()
